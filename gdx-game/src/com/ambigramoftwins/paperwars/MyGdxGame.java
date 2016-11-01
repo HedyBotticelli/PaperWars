@@ -37,7 +37,7 @@ public class MyGdxGame implements ApplicationListener
 				splicx.setTiles(xx,yy,16);
 				//processing input
 				if (Gdx.input.isTouched()){
-					splicx.tileX = 1;
+					splicx.tileX = 0;
 					//splicx.tileY = 0;
 					//kurapF = "yes";
 				}/*else{
